@@ -22,7 +22,7 @@ public class ProductServiceImpl implements IProductService {
 	public String deleteProduct(int id) {
 
 		repo.deleteById(id);
-		return "Product whose Id is::"+id+"::SuccessFully Deleted";
+		return "Product whose Id is "+id+" SuccessFully Deleted";
 	}
 
 }
